@@ -1,0 +1,258 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    margin-top: 0;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    padding: 0px;
+    background-color: #d9d9d9; /* Color de fondo */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+   
+}
+
+.logo img {
+    height: 50px; /* Ajusta el tamaño del logo */
+    margin: 0px 70px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0px 70px;
+}
+
+nav ul li {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.sobreh2-container {
+    font-size: 24px;
+    padding: 30px 70px;
+    
+    text-align: right;
+    color: #ff0000;
+    
+    
+}
+
+.yo-container{
+    
+    padding: 30px 70px;
+    margin-top: 0 ;
+    
+}
+ 
+.yo-content {
+    display:flex;
+    justify-content: space-between;
+    
+    
+}
+
+.yo-camara {
+    size: 44px;
+    margin: 10px 40px;
+    
+}
+
+.perfil-container{
+    
+    padding: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex-direction: column;
+    
+
+}
+
+
+.contenedor {
+    display: flex;
+    justify-content: flex-start;
+    gap: 140px;
+}
+
+
+.habilidades h3 {
+    color: red;
+    font-size: 24px;
+    
+    margin-bottom: 10px;
+}
+
+.imagen {
+    width: 350px;
+    height: 200px;
+    border-radius: 5px;
+    
+    
+    
+}
+
+.habilidades ul {
+    list-style-type: square;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+
+.habilidades ul li {
+    margin-bottom: 5px;
+    
+}
+
+
+
+.experiencia-contenedor{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.experiencia-h3 {
+    color: red;
+    font-size: 24px;
+    
+    margin-bottom: 10px;
+}
+
+.imagen2p {
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+    
+    margin-bottom: 15px;
+}
+
+
+.experiencia-lista {
+    list-style: none;
+    
+    padding-top: 95px;
+}
+
+.experiencia-lista li {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.experiencia-lista span {
+    color: red;
+    font-weight: bold;
+}
+
+
+.experiencia-lista li::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: red;
+    z-index: -1;
+}
+
+.btn-cv {
+    margin-top: auto;
+    margin-left: -675px;
+    padding: 10px 20px;
+    border: 1px solid rgb(255, 0, 0);
+    background: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ff0000;
+    display: flex;
+    flex-flow: column;
+    max-width: 160px;
+    
+}
+
+.btn-cv:hover {
+    background-color: rgb(202, 72, 72);
+    color: white;
+    transition: 0.3s;
+}
+
+
+
+.seccionvideo {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    padding: 0px;
+    overflow: hidden; /* Para asegurar que el video no se desborde */
+    transition: all 0.5s ease;
+}
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que el video cubra todo el fondo */
+    z-index: -1; /* Pone el video detrás del contenido */
+}
+
+
+.footer {
+    width: 100%; 
+    height: 170px;
+    background-color: #d9d9d9; 
+    color: none; 
+    padding: 0px 70px; 
+    transition: all 0.5s ease;
+}
+
+.logofooter-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     
+}
+
+.izquierdatext {
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    display: flex;
+    flex-direction: left;
+    align-items: left;
+    justify-content: left;
+    
+}  
+  
+  
+.iconos {
+    display: flex;
+    flex-direction: right;
+    align-items: right;
+    justify-content: right;
+    margin: -40px 0px;
+    
+    
+}
